@@ -34,7 +34,7 @@ Start your image binding the external port `8086` of your containers:
 
     docker run -d -p 8086:8086 hypriot/rpi-influxdb
 
-`Docker` containers are easy to delete. If you are serious about keeping InfluxDB data persistently, then consider adding a volume mapping to the containers `/data` folder:
+Docker containers are easy to delete. If you are serious about keeping InfluxDB data persistently, then consider adding a volume mapping to the containers `/data` folder:
 
     docker run -d --volume=/var/influxdb:/data -p 8086:8086 hypriot/rpi-influxdb
 
