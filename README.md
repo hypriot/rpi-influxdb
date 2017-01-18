@@ -8,7 +8,6 @@ Raspberry Pi compatible Docker base image with InfluxDB, an open source database
 - [Dockerfile](https://github.com/hypriot/rpi-influxdb/blob/master/Dockerfile)
 - [DockerHub] (https://registry.hub.docker.com/u/hypriot/rpi-influxdb/)
 
-
 #### Build the Docker Image
 ```bash
 make build
