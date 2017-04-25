@@ -45,8 +45,8 @@ You can use the RESTful API to talk to InfluxDB on port `8086`. Use the new `inf
   ```
   docker exec -it <influxdb-container-name> /usr/bin/influx
   Visit https://enterprise.influxdata.com to register for updates, InfluxDB server management, and monitoring.
-  Connected to http://localhost:8086 version 1.1.1.1
-  InfluxDB shell 1.1.1.1
+  Connected to http://localhost:8086 version 1.2.2
+  InfluxDB shell 1.2.2
   >
   ```
 
@@ -56,7 +56,7 @@ Use `-e PRE_CREATE_DB="db1;db2;db3"` to create database named "db1", "db2", and 
 
 ```docker run -d -p 8086:8086 -e ADMIN_USER="root" -e INFLUXDB_INIT_PWD="somepassword" -e PRE_CREATE_DB="db1;db2;db3" hypriot/rpi-influxdb:latest```
 
-Alternatively, create a database and user with the InfluxDB 1.1 shell:
+Alternatively, create a database and user with the InfluxDB 1.2 shell:
 
 ```
   > CREATE DATABASE db1
