@@ -1,5 +1,4 @@
-# rpi-influxdb [![Build Status](https://travis-ci.org/hypriot/rpi-influxdb.svg?branch=master)](https://travis-ci.org/hypriot/rpi-influxdb)
-[![This image on DockerHub](https://img.shields.io/docker/pulls/hypriot/rpi-influxdb.svg)](https://hub.docker.com/r/hypriot/rpi-influxdb/)
+# rpi-influxdb [![Build Status](https://travis-ci.org/hypriot/rpi-influxdb.svg?branch=master)](https://travis-ci.org/hypriot/rpi-influxdb) [![This image on DockerHub](https://img.shields.io/docker/pulls/hypriot/rpi-influxdb.svg)](https://hub.docker.com/r/hypriot/rpi-influxdb/)
 
 Raspberry Pi compatible Docker base image with InfluxDB, an open source database written in Go specifically to handle time series data with high availability and high performance requirements.
 
